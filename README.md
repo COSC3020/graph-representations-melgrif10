@@ -16,6 +16,8 @@ depend on the number of vertices, the number of edges, or both?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+The runtime complexity of the conversion that was implemented depends on the number of verices and the number of edges. The outer loop runs through the amount of verices in the graph because it is iterating over each row in the matrix. The inner loop runs through all the edges in the graph because it iterates over each column in the matrix. Therefore the overall complexity would be O(V*E).
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
